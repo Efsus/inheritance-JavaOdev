@@ -6,6 +6,7 @@ public class Main {
 		
 		User user1 = new User();
 		user1.setFirstName("Yusuf");
+		user1.setLastName("Gokdogan");
 		
 		Instructor instructor1 = new Instructor();
 		instructor1.setFirstName("Engin");
@@ -24,6 +25,7 @@ public class Main {
 		
 		InstructorManager instructorManager = new InstructorManager();
 		instructorManager.uploadCourse();
+		
 		
 		
 		
