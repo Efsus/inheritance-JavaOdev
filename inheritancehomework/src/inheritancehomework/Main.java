@@ -24,6 +24,7 @@ public class Main {
 		studentManager.rateInstructor(instructor1);
 		
 		InstructorManager instructorManager = new InstructorManager();
+		instructorManager.register(instructor1);
 		instructorManager.uploadCourse();
 		
 		
